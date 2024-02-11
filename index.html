@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLATPACK</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .Main{
+            border: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #eaeaea;
+        }
+        .child{            
+            border: none;
+            width: 60%;
+            height: 500px;
+            margin-top: 7.5%;
+            margin-bottom: 7.5%;
+            background-color: #fff;
+        }
+        .logo{
+            padding: 30px 0px 0px 40px;
+            display: flex;
+            flex-direction: row;
+        }
+        .img{
+            padding-right: 550px;
+        }
+        .stay{
+            color: #797575;
+            font-size: 18px;
+            margin-right: 18px;
+            padding-top: 5px;
+        }
+        .Head{
+            text-align: center;
+            font-size: 26px;
+            font-family: 'open sans', sans-serif;
+            font-weight: 600;
+            color: #000;
+            padding-top: 80px;
+            margin-bottom: 14px;
+        }
+        .txt{
+            text-align: center;
+            font-size: 16px;
+            font-family: 'open sans', sans-serif;
+            font-weight: normal;
+            color: #a9a9a9;
+            margin-bottom: 20px;
+        }
+        .info{
+            display: flex;
+            flex-direction: column;
+        }
+        #email{
+            color: #eee;
+            width: 39%;
+            height: 30px;
+            border: 1px solid #ccccccbc;
+            border-radius: 4px;
+            font: 18px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+            background-color: #eeeeeedb;
+            margin-bottom: 10px;
+            margin-left: 280px;
+            padding:10px;
+        }
+        #subscribe{
+            color: #eee;
+            width: 41.5%;
+            height: 45px;
+            border: 1px solid #ccccccbc;
+            border-radius: 4px;
+            font: 18px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+            background-color: #0da5b8;
+            margin-bottom: 20px;
+            margin-left: 280px;
+            padding:10px;
+        }
+        .note{
+            text-align: center;
+            color: #a9a9a9;
+            font-size: 13px;
+            font-family: 'open sans', sans-serif;
+            padding: 5px 0px;
+            padding-left: 20px;
+            padding-bottom: 40px;
+        }
+        .last{
+            width: 100%;
+            height: 70px;
+            background-color: #0da5b8;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+        a{
+            text-decoration: none;
+            color: #eee;
+        }
+        .lp{
+            color: #eee;
+            padding-right: 120px;
+            padding-left: 200px;
+            font: 16px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+        }
+        .F2{
+            display:flex;
+            flex-direction: row;
+            gap:19px;
+            border: none;
+            margin-top: 0px;
+            padding-left: 0px;
+        }
+        .post1{
+                border: 2px black solid;
+                border-radius: 5px;
+                background-color: black;
+                padding:2px;
+                color: white;
+                height: 16px;
+            }
+        #post1, a{
+                color: white;
+        }
+        .Like1{
+                border: #00aeef;
+                border-radius: 5px;
+                background-color: #0580eb;
+                padding:2px;
+                color: white;
+                height: 20px;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="Main">
+        <div class="child">
+            <img src="https://pixfort.website/themeforest/landing/flatpack/19_new_subscribe/images/19_new_subscribe/pattern-subscribe.png" width="100%">
+            <div class="logo">
+                <img class="img" src="https://pixfort.website/themeforest/landing/flatpack/19_new_subscribe/images/19_new_subscribe/Logo.png">
+                <div class="stay">Stay Connected</div>
+            </div>
+            <div class="ce">
+                <div class="Head">We Are Coming Soon</div>
+                <div class="txt">Just Subscribe to get full access to our new tutorial + all attachments files.</div>
+            </div>
+            <div class="info">
+                <fieldset style="border: none;">
+                    <div id="result"></div>
+                    <input type="email" name="email" id="email" placeholder="Enter Your Email" required>
+                    <button class="subscribe_btn espace" id="subscribe" style="cursor: pointer;"><a href=".Main">SUBSCRIBE NOW</a></button>
+                </fieldset>
+            </div>
+            <div class="note">*Note: Bundle ends in two weeks from now.</div>
+            <div class="last">
+                <div class="lp">All rights reserved Copyright © 2015 FLATPACK by PixFort</div>
+                <div class="F2">
+                    <div class="post1"> <i class="fa-solid fa-square-xmark" id="post1"></i>&nbsp;<a href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fpixfort.website%2F&ref_src=twsrc%5Etfw%7Ctwcamp%5Ebuttonembed%7Ctwterm%5Eshare%7Ctwgr%5E&text=Your%20Page%20Title%20Here%20%3A)&url=https%3A%2F%2Fpixfort.website%2Fthemeforest%2Flanding%2Fflatpack%2F1-normal%2F1-normal.html&via=pixfort">Post</a></div>
+                     <div class="Like1"><i class="fa-solid fa-thumbs-up" id="like"></i>&nbsp;<a>Like</a></div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>
